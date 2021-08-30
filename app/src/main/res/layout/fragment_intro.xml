@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchMatch_"
+    android:padding="@dimen/_20sdp"
+    tools:context=".intro.IntroFragment">
+
+
+    <LinearLayout
+        style="@style/matchWrap_"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_start_service"
+            style="@style/matchWrap_"
+            android:text="start service" />
+    </LinearLayout>
+</RelativeLayout>
