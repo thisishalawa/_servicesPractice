@@ -71,4 +71,6 @@ class IntroFragment : Fragment(), View.OnClickListener {
         serviceIntent = Intent(context, MyService::class.java)
 
     }
+
+
 }

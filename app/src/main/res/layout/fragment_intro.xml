@@ -15,5 +15,10 @@
             android:id="@+id/btn_start_service"
             style="@style/matchWrap_"
             android:text="start service" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bind_service"
+            style="@style/matchWrap_"
+            android:text="bind service" />
     </LinearLayout>
 </RelativeLayout>

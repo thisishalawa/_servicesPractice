@@ -28,7 +28,51 @@ class MainActivity : AppCompatActivity() {
       one of the four major component of android
       activity broadcastReceiver contentProvider
 
+* */
+
+
+/*
+*                        service Behavior
+
+
+                      Auto_Restart           Intent
+ start-sticky           Yes                Null Intent
+ start-NotSticky         No                WithIntent When started
+ start-Redeliver-Intent  Yes                Intent
+
+
+*
+* start-sticky :
+* services are being explicitly managed
+* no need to remember state
+* long running music Playing service
+* */
+
+/*
+* start-not-sticky :
+* services are not being explicitly managed
+* selfStopped
+* Alarm service or server data poling
+*
+* */
+
+/*
+* start-redeliver-intent :
+* services are not being explicitly managed
+* restart from previous state
+* file download
+*
+* */
+
+
+/*
+   Bound Services :
+
+ - Local Binding   ( IBinder )
+ - Remote Binding   ( Messenger - AIDL )
 *
 *
-*
+ Note *
+ Most of Apps should not use AIDL to create bound service
+
 * */
